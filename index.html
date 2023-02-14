@@ -74,10 +74,10 @@
         padding:0px;
         margin:0px;
       }
-      .img-fluid{
+      .img-{
         width:100%;
         height: 50%;
-        border-radius: 0px 0px 5px 5px;
+        border-radius:0px 0px 15px 15px;
         
       }
       .service{
@@ -85,26 +85,67 @@
         position: absolute;
         left: 1010px;
         top: 791px;
+        padding-top:;
+      }
+      .our{
+        position: absolute;
+        left: 981px;
+        top: 977px;
+        background-color: blue;
+        width: 300px;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+        color:white;
+        border-radius: 20px 0px 0px 0px;
       }
       .content{
         position: absolute;
         left: 50px;
         top: 800px;
       }
-      .our{
-        background-color: rgba(79, 32, 207, 0.781);
-        color: white;
-        width: 300px;
-        height: 30px;
-        padding:10px;
-        justify-content: center;
-        text-align: center;
+      
+      .lorem{
+        background-color: aqua; 
+        padding-top: 20px;
         position: absolute;
-        left: 980px;
-        top: 976px;
-        font-size: 25px;
-        border-radius: 30px 0 0 0;
+        top:1014px;
+        left:1010px;
+        color: white;
+        width: 270px;
       }
+      .row{
+        width: 100px;
+        display: flex;
+        padding: 10px;
+        margin:20px;
+        position: absolute;
+        left:200px;
+        top:1090px;
+      }
+      .flex-container {
+       display: flex;
+       background-color: DodgerBlue;
+       width: 80px;
+       height:80px;
+       position: absolute;
+       top: 1155px;
+       left: 950px;
+       border-radius: 15px 0px 0px 0px;
+       
+      }
+      .scan{
+
+        width: 50px;
+        height: 70px;
+        position: absolute;
+        top:13px;
+        left:13px;
+
+      }
+
+      
+
       
     </style><br>
   </style>
@@ -112,7 +153,7 @@
 <body>
   <div class="container">
     <div style="justify-content: center;align-items: center;">
-  <img src="555.jfif" class="img-fluid">
+  <img src="555.jfif" class="img-">
   </div>
   <div>
   <p id="rcorners2" style="align-items:center;">
@@ -123,13 +164,16 @@
   <p class="line">LET US <B>TAKE</B> CARE OF YOU</p>
   </div>
 </div>
+
+</pre>
+</div>
 <div> 
   <div id="page">
     <div id="page-bgtop">
       <div id="page-bgbtm">
         <div id="content1">
           <div class="post">
-            <H2>&#8220;</H2>
+            <H2 style="font-size:20px;">&#8220;</H2>
             <h3 style="color: blue;">ABOUT <b style="color: blue;font-size:20PX;">US</b>
             <div class="entry">
               <div class="left" style="color: blue;">
@@ -138,7 +182,7 @@
                 <DIV>
                   <pre style=" position: relative;
                   left: 300px;"> special Attention
-        For <b>COVID</b>
+        For <b style="font-weight: 20px;">COVID</b>
                   </pre>
                 </DIV>
               </div>
@@ -151,22 +195,42 @@
 
   </div>
   
-</div>
 
 
-  <div>  
+<div>  
   <img src="services.jfif"class="service">
 </div>
 <div>
 <b class="our">OUR SERVICES</b>
 </div>
-<div class="row">
-  <div class="col" style="background-color:lavender;">.col</div>
-  <div class="col" style="background-color:orange;">.col</div>
-  <div class="col" style="background-color:lavender;">.col</div>
+<div >
+  <pre class="lorem">
+                     <b style="font-size: 15px;">Lorem ipsum</b>
+       amet, consectetur adipisicin 
+       velit rerum perspiciatis moh
+ 
+                     <b style="font-size: 15px;">Lorem ipsum</b>
+      amet, consectetur adipisicin
+      velit rerum perspiciatis mol
+
+                     <b style="font-size: 15px;">Lorem ipsum</b>
+      amet, consectetur adipisicin
+      velit rerum perspiciatis moh
+  </pre>
 </div>
-
-
+<div class="container">
+  <div class="row">
+    <div class="col">&#8220;</div>
+    <div class="col">&#8220;</div>
+    <div class="col">&#8220;</div>
+    
+  </div>
+</div>
+<div class="flex-container">
+  <img src="scan.jpg" class="scan">
+  
+  
+</div>
 
 
 </body>
