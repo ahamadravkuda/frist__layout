@@ -1,0 +1,193 @@
+#page{
+    width:900px;
+    margin: 0 auto;
+    padding: 0;
+ }
+ #page-bgtop{
+
+ }
+ #page-bgbtm{
+   margin: 0px;
+   padding: 40px 50px 0px 50px;
+
+ }
+ #content1{
+   float: left;
+   width: 650px;
+   padding: 0px 0px 0px 0px;
+ }
+ .post{
+   clear: both;
+   padding-bottom: 5px;
+ }
+ .post .entry{
+   text-align: justify;
+   margin-bottom: 25px;
+   padding: 0px 0px 0px 0px ;
+ }
+ .left{
+   float: left;
+   width: 70%;
+ }
+  #rcorners2 {
+     border-radius: 50px 10px;
+     background-image: linear-gradient(90deg, rgb(13, 0, 255) 100%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+     padding: 10px;
+     width: 950px;
+     height: 90px;
+     color: white;
+     font-style: bold;
+     font-size: 200%; 
+     text-align: center;
+     position: absolute;  
+     left: 200px;
+     top: 600px;
+     justify-content: center;
+     
+   }
+   .line{
+     background-color: aqua;
+     color: white;
+     width: 750px;
+     height: 30px;
+     padding:10px;
+     justify-content: center;
+     text-align: center;
+     position: absolute;
+     left: 290px;
+     top: 716px;
+     font-size: 25px;
+     
+   }
+   body{
+     background-image: url("");
+     background-repeat: no-repeat,repeat;
+     background-color: white;
+     padding:0px;
+     margin:0px;
+   }
+   .img-{
+     width:100%;
+     height: 50%;
+     border-radius:0px 0px 15px 15px;
+     
+   }
+   .service{
+     border-radius: ;
+     position: absolute;
+     left: 1010px;
+     top: 791px;
+     padding-top:;
+   }
+   .our{
+     position: absolute;
+     left: 981px;
+     top: 977px;
+     background-color: blue;
+     width: 300px;
+     height: 50px;
+     justify-content: center;
+     text-align: center;
+     color:white;
+     border-radius: 20px 0px 0px 0px;
+   }
+   .content{
+     position: absolute;
+     left: 50px;
+     top: 800px;
+   }
+   
+   .lorem{
+     background-color: aqua; 
+     padding-top: 20px;
+     position: absolute;
+     top:1014px;
+     left:1010px;
+     color: white;
+     width: 270px;
+   }
+   .row{
+     width: 100px;
+     display: flex;
+     padding: 30px;
+     margin:50px;
+     position: absolute;
+     left:200px;
+     top:1010px;
+   }
+   .flex-container {
+    display: flex;
+    background-color:blue;
+    width: 80px;
+    height:80px;
+    position: absolute;
+    top: 1155px;
+    left: 950px;
+    border-radius: 15px 0px 0px 0px;
+    
+   }
+   .scan{
+
+     width: 50px;
+     height: 70px;
+     position: absolute;
+     top:13px;
+     left:13px;
+   }
+   .time{
+     border-radius: 10px;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     left: 100px;
+   }
+   .time1{
+     border-radius: 10px;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     left: 200px;
+   }
+   .time2{
+     border-radius: 10px;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     left: 300px;
+   }
+   .details{
+     position: absolute;
+     top: 1190px;
+     left: 300px;
+   }
+   .logo{
+     width: 30px;
+     height: 30px;
+     position: absolute;
+     left: -35px;
+   }
+   .twitter{
+     width: 30px;
+     height: 30px;
+     
+   }
+   .insta{
+     width: 30px;
+     height: 30px;
+     border-radius: 10px;
+     
+   }
+   .Facebook{
+     width: 30px;
+     height: 30px;
+     border-radius: px;
+     
+   }
+   <div class="container">
+    <div class="row">
+      <div class="col"><img src="IMG-20230214-WA0038 (3).jpg"> class="time"></div>
+      <div class="col"><img src="digital.jpg" class="time1"></div><hr>
+      <div class="col"><img src="mask.jpg" class="time2"></div><hr>
+      
+    </div>
+   
